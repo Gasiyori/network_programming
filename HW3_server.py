@@ -1,7 +1,6 @@
 # TCP 통신을 통한 서버-클라이언트간 계산기 프로그램
 # 서버
 
-from shutil import which
 import socket
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
