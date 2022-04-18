@@ -13,14 +13,15 @@ def accept(sock, mask): # 새로운 클라이언트로부터 연결을 처리하
     conn.send("Register".encode())
     
 def read(conn, mask): # 기존 클라이언트로부터 수신한 데이터를 처리하는 함수
-    data = conn.recv(1024)
+    data = conn.recv(1024).decode()
     if not data:
         sel.unregister(conn) # 소켓 연결 종료 시, 이벤트 처리기에서 등록 해제
         conn.close()
         return
-    print('received data:', data.decode())
-    # 들어온 위치로 데이터 전송
+    print('received data:', data)
+    # 수신값 출력
 
+    # 파일에 쓰기
     f = open("data.txt", 'a+')
     f.write(f"{time.strftime('%c', time.localtime(time.time()))}: {data}\n")
     f.close()
