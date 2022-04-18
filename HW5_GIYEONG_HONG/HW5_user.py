@@ -38,4 +38,4 @@ while True:
 
 sock_1.close()
 sock_2.close()
-f = open("data.txt", 'a+')
+f.close()

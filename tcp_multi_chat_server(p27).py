@@ -25,21 +25,16 @@ def recv_send(client, addr):
             if client != x: # 현재 클라이언트를 제외한
                 x.send(msg.encode()) # 나머지 클라이언트에 메세지 전송
 
-def connect_socket():
-    while True:
-        s = socket(AF_INET, SOCK_STREAM)
-        s.bind(('', port))
-        s.listen(1)
+while True:
+    s = socket(AF_INET, SOCK_STREAM)
+    s.bind(('', port))
+    s.listen(1)
 
-        client, addr = s.accept()
-        print('new client', addr)
+    client, addr = s.accept()
+    print('new client', addr)
 
-        # 각 소켓에서 수신 및 송신 관리 스레드
-        rs = threading.Thread(target=recv_send, args=(client, addr))
-        rs.start()
+    # 각 소켓에서 수신 및 송신 관리 스레드
+    rs = threading.Thread(target=recv_send, args=(client, addr))
+    rs.start()
 
-        client_list.append(client)
-
-# 소켓 연결 스레드 생성 및 시작
-th = threading.Thread(target=connect_socket)
-th.start()
+    client_list.append(client)
