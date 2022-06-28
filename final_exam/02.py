@@ -14,15 +14,15 @@ SMTP_PORT = 587
 
 sender = 'ghdrldud99@gmail.com'
 recipient = ['daeheekim@sch.ac.kr', 'ninanooo@gmail.com']
-password = 'gfwoqwqqtmljuqfo'
+password = 'qwerty' # input your password
 
 BUFF_SIZE = 65535
 
 cli = paramiko.SSHClient()
 cli.set_missing_host_key_policy(paramiko.AutoAddPolicy)
 
-user = 'net_pro'
-pwd = 'iot123'
+user = 'server' # remote server user name
+pwd = 'password' # remote server user password
 
 cli.connect('114.71.220.5', username=user, password=pwd)
 channel = cli.invoke_shell() # 새로운 셸 세션(channel) 생성
