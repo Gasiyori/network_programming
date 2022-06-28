@@ -1,3 +1,5 @@
+# 데이터 손실을 가정한 데이터 전송, 클라이언트
+
 from socket import *
 import random
 
