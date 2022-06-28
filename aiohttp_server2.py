@@ -21,7 +21,7 @@ async def proc_query(request):
     else:
         message = '<h2>Wrong status</h2>'
 
-    return web.Response(text=message, content_type='text/html')
+    return web.Response(text=message, content_type='image/png')
 
 async def proc_form_post(request):
     data = await request.post()
