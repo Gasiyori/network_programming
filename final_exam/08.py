@@ -6,7 +6,7 @@ from PIL import Image, ImageDraw
 from io import BytesIO
 
 API_URL = 'https://dapi.kakao.com/v2/vision/thumbnail/crop'
-REST_API_KEY = 'fce87d5a284d99cc0ff0a9e95796f3d7'
+REST_API_KEY = 'Your REST API KEY'
 
 def thumb_product(image_url): # app_key와 이미지 파일의 URL을 POST로 전송하여 섬네일 생성
     headers = {'Authorization': 'KakaoAK {}'.format(REST_API_KEY)}
