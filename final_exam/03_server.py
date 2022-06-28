@@ -1,3 +1,7 @@
+# 중간고사 문제와 거의 유사. asyncio 사용해서 구현
+# big endian을 고려해야했는데 자료를 가지고 있지 않아서 구현 못했음.
+# 여기서도 감점 먹었을 것으로 추정
+
 import asyncio
 import random
 
