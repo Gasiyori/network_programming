@@ -1,3 +1,5 @@
+# 기존 프로그램을 멀티 프로세싱으로 개량
+
 import requests, time
 import multiprocessing
 

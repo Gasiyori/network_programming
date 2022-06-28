@@ -1,3 +1,5 @@
+# 기존 프로그램을 스레딩으로 개량
+
 import concurrent.futures
 import requests, threading, time
 

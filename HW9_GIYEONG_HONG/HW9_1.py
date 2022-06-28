@@ -1,7 +1,7 @@
+# 동시성 없는 기본 프로그램
+
 import requests
 import time
-
-# 동시성 없는 프로그래밍
 
 def download_site(url, session):
     with session.get(url) as response:

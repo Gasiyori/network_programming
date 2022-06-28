@@ -1,3 +1,5 @@
+# 기존 프로그램을 비동기 I/O로 개량
+
 import asyncio
 import time
 import aiohttp
