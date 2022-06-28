@@ -1,3 +1,6 @@
+# 중간고사 문제와 유사하지만 aiohttp를 사용해 제작
+# 뭔가 돌아는 가는데 뭔가 안됨. 아마 감점 받았을거고 aiohttp 조금 더 연습하면 알 수 있을 듯
+
 from aiohttp import web
 import aiofiles
 
