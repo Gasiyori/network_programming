@@ -1,3 +1,6 @@
+# 짬뽕.
+# 원격 접속 / 명령 실행 / 압축 / 메일 전송 등 배운 내용들을 전체적으로 사용 
+
 import getpass
 import paramiko
 import time
