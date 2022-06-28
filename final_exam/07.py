@@ -1,3 +1,5 @@
+# json 포맷으로 post하고 결과값에서 특정 항목 분리하는 문제였던 것 같음.
+
 import requests
 import json
 
