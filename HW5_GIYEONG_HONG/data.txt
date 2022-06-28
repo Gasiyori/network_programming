@@ -11,4 +11,3 @@ Sat Apr  2 02:02:40 2022: Hearbeat=137, Steps=2067, Cal=3003
 Sat Apr  2 02:02:42 2022: Hearbeat=138, Steps=4648, Cal=2867
 Sat Apr  2 02:02:44 2022: Temp=11, Humid=88, Illum=106
 Sat Apr  2 02:02:46 2022: Temp=20, Humid=91, Illum=145
-Sat Apr  2 02:02:48 2022: Hearbeat=139, Steps=5039, Cal=2433
