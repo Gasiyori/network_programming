@@ -3,7 +3,7 @@ from PIL import Image, ImageDraw
 from io import BytesIO
 
 API_URL = 'https://dapi.kakao.com/v2/vision/product/detect'
-REST_API_KEY = 'fce87d5a284d99cc0ff0a9e95796f3d7'
+REST_API_KEY = 'YOUR API KEY'
 
 def detect_product(image_url): # app_key와 이미지 파일의 URL을 POST로 전송하여 상품 검출을 수행
     headers = {'Authorization': 'KakaoAK {}'.format(REST_API_KEY)}

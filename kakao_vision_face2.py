@@ -2,7 +2,7 @@ import requests
 from PIL import Image, ImageFilter
 
 API_URL = 'https://dapi.kakao.com/v2/vision/face/detect'
-REST_API_KEY = 'fce87d5a284d99cc0ff0a9e95796f3d7'
+REST_API_KEY = 'YOUR API KEY'
 
 def detect_face(filename): # app_key와 이미지 파일을 POST로 전송하여 얼굴 검출을 수행
     headers = {'Authorization' : 'KakaoAK {}'.format(REST_API_KEY)}

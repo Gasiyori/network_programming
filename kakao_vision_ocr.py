@@ -31,7 +31,7 @@ def kakao_ocr(image_path, rest_api_key): # OCR 수행 함수
 
 def main():
     image_path = 'myphoto.jpg'
-    REST_API_KEY = 'fce87d5a284d99cc0ff0a9e95796f3d7'
+    REST_API_KEY = 'YOUR API KEY'
 
     resize_impath = kakao_ocr_resize(image_path) # 이미지가 1024X1024를 초과할 경우 resize
     if resize_impath is not None:

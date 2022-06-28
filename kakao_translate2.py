@@ -2,7 +2,7 @@ import requests
 
 API_URL_1 = 'https://dapi.kakao.com/v2/translation/translate'
 API_URL_2 = 'https://dapi.kakao.com/v3/translation/language/detect'
-REST_API_KEY = 'fce87d5a284d99cc0ff0a9e95796f3d7'
+REST_API_KEY = 'YOUR API KEY'
 
 def detect_language_get(text):
     headers = {'Authorization': 'KakaoAK {}'.format(REST_API_KEY)}

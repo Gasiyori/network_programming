@@ -1,7 +1,7 @@
 import requests
 
 API_URL = 'https://dapi.kakao.com/v2/translation/translate'
-REST_API_KEY = 'fce87d5a284d99cc0ff0a9e95796f3d7'
+REST_API_KEY = 'YOUR API KEY'
 
 def translate_get(text): # GET 요청
     headers = {'Authorization': 'KakaoAK {}'.format(REST_API_KEY)}
