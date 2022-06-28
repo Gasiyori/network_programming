@@ -1,3 +1,6 @@
+# 카카오 로그인 / 나에게 채팅
+# 특이사항으로 프로필사진이 없으면 오류가 발생함
+
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from urllib import parse,request
 import requests, json
