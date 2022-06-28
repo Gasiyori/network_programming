@@ -1,3 +1,6 @@
+# 문제 기억 안남
+# url을 parse하고, 다시 합쳐서 리퀘스트 받아서 출력하는 듯?
+
 from urllib import parse
 import requests
 
