@@ -11,7 +11,6 @@ def success_msg_header(mimeType):
     return result
 
 while True:
-
     c, addr = s.accept() # 클라이언트, 주소저장
 
     data = c.recv(1024) # 데이터 수신
