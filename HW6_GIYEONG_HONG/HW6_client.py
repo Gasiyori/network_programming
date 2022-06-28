@@ -1,4 +1,5 @@
-from dis import Instruction
+# 메일함 구현 / 클라이언트
+
 import socket
 
 port = 2500

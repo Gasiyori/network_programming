@@ -1,3 +1,5 @@
+# 메일함 구현 / 서버
+
 import socket
 
 port = 2500
